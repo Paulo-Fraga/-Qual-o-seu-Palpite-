@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 251, 0, 0.521);
+}
+body{
+    background-color: black;
+}
+header{
+    
+    
+    background-color: rgb(34, 129, 158);
+}
+.conteiner-1{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner-1 span{
+    position: relative;
+    bottom: -5px;
+    left: -10px;
+}
+
