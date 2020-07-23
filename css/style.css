@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: rgba(255, 251, 0, 0.521);
+    color: rgb(255, 255, 255);
 }
 body{
     background-color: black;
@@ -22,5 +22,17 @@ header{
     position: relative;
     bottom: -5px;
     left: -10px;
+}
+.formt{
+    width: 80vw;
+    padding:5vh 0px 0px 0px;
+    margin: auto;
+    text-justify: justify;
+}
+.img-emoji{
+    width: 40px;
+}
+.dica{
+    padding-top: 5vh;
 }
 
