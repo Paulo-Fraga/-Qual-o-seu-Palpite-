@@ -1,38 +1,85 @@
 *{
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 body{
-    background-color: black;
+    background-color: rgb(43, 42, 42);    background-image: url('../img/background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  
 }
-header{
-    
-    
-    background-color: rgb(34, 129, 158);
+.tremera{
+    animation: 200ms tremer;
+}
+main{
+
+    background-position: rotate;
 }
 .conteiner-1{
     display: flex;
     width: 100vw;
-    height: 20vh;
+    height: 19vh;
     justify-content: center;
     align-items: center;
+    color: yellow;
 }
 .conteiner-1 span{
     position: relative;
     bottom: -5px;
     left: -10px;
+    
 }
 .formt{
-    width: 80vw;
-    padding:5vh 0px 0px 0px;
+    width: 60vw;
+    min-width: 280px;
+    padding:3vh 0px 0px 0px;
     margin: auto;
-    text-justify: justify;
+    text-justify: center;
+    text-align: justify;
+    color: rgb(238, 255, 0);
 }
 .img-emoji{
     width: 40px;
+    animation: 20s girar;
+    animation-delay: 20s;
 }
 .dica{
     padding-top: 5vh;
-}
 
+}
+.palpite, .btn{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 1px;
+}
+.btn{
+    margin-left: 10px;
+}
+.usuario{
+    display:flex;
+}
+.resp{
+    display:flex;
+}
+@keyframes tremer{
+    from{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(-10px);
+    }
+    to{
+        transform: translateX(10px);
+    }
+}@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(720deg);
+    }
+}

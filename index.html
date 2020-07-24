@@ -15,16 +15,22 @@
             </span>
             <h1>Jogo do Palpite</h1>
             
+            
         </div>
     </header>
     <main>
         <div class="conteiner-2">
             <div class="formt">
-                <p>Seja bem vindo! Elaboramos um jogo para voce, cujo o objetivo é acertar o numero preparado por nos. Boa Sorte!!</p>
-            
-            <div class="formt">
-                <label for="">Digite:</label>
-                <input class="palpite" type="number" placeholder="Seu Palpite">
+                <h2>Seja bem vindo!</h2>
+                <br>
+                <p>Seu objetivo é acertar o numero preparado por nos, voce possui 7 chances, se perder iremos diminuir um numero de chance em seu proximo jogo.</p> 
+                <p>Vamos ver até onde voce consegue chegar!!</p>
+                <br>
+                <div class="usuario" id="usuario">
+
+                    <input id="palpite" class="palpite" type="number" placeholder="Seu Palpite">
+                    <input id="btn" class="btn palpite" type="button" value="Enviar">
+                </div>
             </div>
             <div id="res" class="formt">
                 <div class="tentativas">
@@ -41,6 +47,6 @@
     <footer>
 
     </footer>
-
+ <script src="./js/app.js"></script>
 </body>
 </html>
